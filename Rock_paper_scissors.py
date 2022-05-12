@@ -16,21 +16,21 @@ def user_won(u,c):
                 print('\n"Paper beats Rock"')
                 return True
             else :
-                print('\n"Rock beats Scissors')
+                print('\n"Rock beats Scissors"')
                 return False
         elif c=='P':
             if u=='R':
                 print('\n"Paper beats Rock"')
                 return False
             else :
-                print('\n"Scissors beats Paper')
+                print('\n"Scissors beats Paper"')
                 return True
         else :
             if u=='P':
-                print('\n"Scissors beats Paper')
+                print('\n"Scissors beats Paper"')
                 return False
             else :
-                print('\n"Rock beats Scissors')
+                print('\n"Rock beats Scissors"')
                 return True
 
 ############# - Output snippet
